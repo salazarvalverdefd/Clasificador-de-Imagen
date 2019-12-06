@@ -1,6 +1,6 @@
 # Reconocimiento de Imágenes
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_En este repositorio se encuentran los pasos necesarios para realizar el etiquetado de imágenes con el usp_
 
 ## Comenzando 🚀
 
