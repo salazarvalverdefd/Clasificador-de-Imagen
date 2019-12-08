@@ -2,6 +2,7 @@
 
 _En este repositorio se encuentran los pasos necesarios para realizar el etiquetado de imágenes con el usp_
 
+___
 ## Pasos para entrenar un modelo de redes neuronales convolucionales
 
 
@@ -19,6 +20,16 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 ```
 Da un ejemplo
 ```
+
+1. Descarga de Urls de imágenes para el entrenamiento
+
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
 
 ### Instalación 🔧
 
