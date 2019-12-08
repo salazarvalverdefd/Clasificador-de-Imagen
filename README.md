@@ -2,6 +2,9 @@
 
 _En este repositorio se encuentran los pasos necesarios para realizar el etiquetado de imágenes con el usp_
 
+## Pasos para entrenar un modelo de redes neuronales convolucionales
+
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
