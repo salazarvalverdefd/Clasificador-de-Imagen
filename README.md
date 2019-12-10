@@ -97,88 +97,88 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			* La imagen muestra como funciona el modelo multicapa, en este caso solo hasta el nivel 3, hay 10 modelos.
 			![No se cargó Modelo Multicapa - Nivel 3](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Modelo Multicapa - Nivel 3")
 
-			Etiquetas|Número de imágenes|75%|25%|Etiquetas Nivel 2|Etiquetas Nivel 3
-			------|------|------|------|------|------
-			Agua Mineral_Cielo|144|108|36|Cielo|
-			Agua Mineral_Otros|227|170.25|56.75|Otros|
-			Agua Mineral_San Carlos|89|66.75|22.25|San Carlos|
-			Agua Mineral_San Luis|144|108|36|San Luis|
-			Agua Mineral_San Mateo|119|89.25|29.75|San Mateo|
-			Café_Altomayo|76|57|19|Altomayo|
-			Café_Cafetal|71|53.25|17.75|Cafetal|
-			Café_Kirma|69|51.75|17.25|Kirma|
-			Café_Nescafé|69|51.75|17.25|Nescafé|
-			Café_Otros|223|167.25|55.75|Otros|
-			Gaseosa_7up|71|53.25|17.75|7up|
-			Gaseosa_Coca Cola|217|162.75|54.25|Coca Cola|
-			Gaseosa_Crush|66|49.5|16.5|Crush|
-			Gaseosa_Fanta|78|58.5|19.5|Fanta|
-			Gaseosa_Guaraná|81|60.75|20.25|Guaraná|
-			Gaseosa_Inka Kola|153|114.75|38.25|Inka Kola|
-			Gaseosa_KR|70|52.5|17.5|KR|
-			Gaseosa_Otros|156|117|39|Otros|
-			Gaseosa_Pepsi|138|103.5|34.5|Pepsi|
-			Gaseosa_Sprite|130|97.5|32.5|Sprite|
-			Jabón_Asepxia|222|166.5|55.5|Asepxia|
-			Jabón_Bolivar|80|60|20|Bolivar|
-			Jabón_Camay|219|164.25|54.75|Camay|
-			Jabón_Dove|295|221.25|73.75|Dove|
-			Jabón_Johnson|237|177.75|59.25|Johnson|
-			Jabón_Lux|295|221.25|73.75|Lux|
-			Jabón_Neko|75|56.25|18.75|Neko|
-			Jabón_Nivea|151|113.25|37.75|Nivea|
-			Jabón_Otros|129|96.75|32.25|Otros|
-			Jabón_Palmolive_Delicada Exfoliación|137|102.75|34.25|Palmolive_Delicada Exfoliación|Delicada Exfoliación
-			Jabón_Palmolive_Otros|219|164.25|54.75|Palmolive_Otros|Otros
-			Jabón_Palmolive_Sensación Humectante|151|113.25|37.75|Palmolive_Sensación Humectante|Sensación Humectante
-			Jabón_Palmolive_Suavidad Relajante|128|96|32|Palmolive_Suavidad Relajante|Suavidad Relajante
-			Jabón_Protex|146|109.5|36.5|Protex|
-			Otros_Árboles|157|117.75|39.25|Árboles|
-			Otros_Cama|175|131.25|43.75|Cama|
-			Otros_Cepillo|75|56.25|18.75|Cepillo|
-			Otros_Cubiertos|165|123.75|41.25|Cubiertos|
-			Otros_Fondos de Colores|139|104.25|34.75|Fondos de Colores|
-			Otros_Fondos de lugares dentro de casa|142|106.5|35.5|Fondos de lugares dentro de casa|
-			Otros_Gato|78|58.5|19.5|Gato|
-			Otros_Lapicero|83|62.25|20.75|Lapicero|
-			Otros_Laptop|55|41.25|13.75|Laptop|
-			Otros_Lata|78|58.5|19.5|Lata|
-			Otros_Mano|75|56.25|18.75|Mano|
-			Otros_Mesa|84|63|21|Mesa|
-			Otros_Mouse|62|46.5|15.5|Mouse|
-			Otros_Olla|81|60.75|20.25|Olla|
-			Otros_Otros animales|167|125.25|41.75|Otros animales|
-			Otros_Otros objetos|157|117.75|39.25|Otros objetos|
-			Otros_Pasto|77|57.75|19.25|Pasto|
-			Otros_Perro|29|21.75|7.25|Perro|
-			Otros_Persona|106|79.5|26.5|Persona|
-			Otros_Silla|163|122.25|40.75|Silla|
-			Otros_Sillón|157|117.75|39.25|Sillón|
-			Otros_Taza|85|63.75|21.25|Taza|
-			Otros_Vaso|89|66.75|22.25|Vaso|
-			Otros_Vegetación|95|71.25|23.75|Vegetación|
-			Pasta Dental_Aquafresh|143|107.25|35.75|Aquafresh|
-			Pasta Dental_Colgate|208|156|52|Colgate|
-			Pasta Dental_Kolynos|83|62.25|20.75|Kolynos|
-			Pasta Dental_Oral B|169|126.75|42.25|Oral B|
-			Pasta Dental_Otros|161|120.75|40.25|Otros|
-			Pasta Dental_Sensodyne|166|124.5|41.5|Sensodyne|
-			Shampoo_Dove|184|138|46|Dove|
-			Shampoo_Elvive|132|99|33|Elvive|
-			Shampoo_H&S|197|147.75|49.25|H&S|
-			Shampoo_Herbal Essences|112|84|28|Herbal Essences|
-			Shampoo_Johnson|119|89.25|29.75|Johnson|
-			Shampoo_Otros|189|141.75|47.25|Otros|
-			Shampoo_Palmolive|224|168|56|Palmolive|
-			Shampoo_Pantene_Fuerza y Reconstrucción|129|96.75|32.25|Pantene_Fuerza y Reconstrucción|Fuerza y Reconstrucción
-			Shampoo_Pantene_Hidratación Extrema|75|56.25|18.75|Pantene_Hidratación Extrema|Hidratación Extrema
-			Shampoo_Pantene_Otro|145|108.75|36.25|Pantene_Otro|Otro
-			Shampoo_Pantene_Restauración|135|101.25|33.75|Pantene_Restauración|Restauración
-			Shampoo_Pert Plus|145|108.75|36.25|Pert Plus|
-			Shampoo_Savital|135|101.25|33.75|Savital|
-			Shampoo_Sedal|143|107.25|35.75|Sedal|
-			**TOTAL**|10443|7832.25|2610.75||
-			**PROMEDIO**|133.884615384615||||
+			Número|Etiquetas|Número de imágenes|75%|25%|Etiquetas Nivel 2|Etiquetas Nivel 3
+			|------|------|------|------|------|------
+			1|Agua Mineral_Cielo|144|108|36|Cielo|
+			2|Agua Mineral_Otros|227|170|57|Otros|
+			3|Agua Mineral_San Carlos|89|67|22|San Carlos|
+			4|Agua Mineral_San Luis|144|108|36|San Luis|
+			5|Agua Mineral_San Mateo|119|89|30|San Mateo|
+			6|Café_Altomayo|76|57|19|Altomayo|
+			7|Café_Cafetal|71|53|18|Cafetal|
+			8|Café_Kirma|69|52|17|Kirma|
+			9|Café_Nescafé|69|52|17|Nescafé|
+			10|Café_Otros|223|167|56|Otros|
+			11|Gaseosa_7up|71|53|18|7up|
+			12|Gaseosa_Coca Cola|217|163|54|Coca Cola|
+			13|Gaseosa_Crush|66|50|17|Crush|
+			14|Gaseosa_Fanta|78|59|20|Fanta|
+			15|Gaseosa_Guaraná|81|61|20|Guaraná|
+			16|Gaseosa_Inka Kola|153|115|38|Inka Kola|
+			17|Gaseosa_KR|70|53|18|KR|
+			18|Gaseosa_Otros|156|117|39|Otros|
+			19|Gaseosa_Pepsi|138|104|35|Pepsi|
+			20|Gaseosa_Sprite|130|98|33|Sprite|
+			21|Jabón_Asepxia|222|167|56|Asepxia|
+			22|Jabón_Bolivar|80|60|20|Bolivar|
+			23|Jabón_Camay|219|164|55|Camay|
+			24|Jabón_Dove|295|221|74|Dove|
+			25|Jabón_Johnson|237|178|59|Johnson|
+			26|Jabón_Lux|295|221|74|Lux|
+			27|Jabón_Neko|75|56|19|Neko|
+			28|Jabón_Nivea|151|113|38|Nivea|
+			29|Jabón_Otros|129|97|32|Otros|
+			30|Jabón_Palmolive_Delicada Exfoliación|137|103|34|Palmolive_Delicada Exfoliación|Delicada Exfoliación
+			31|Jabón_Palmolive_Otros|219|164|55|Palmolive_Otros|Otros
+			32|Jabón_Palmolive_Sensación Humectante|151|113|38|Palmolive_Sensación Humectante|Sensación Humectante
+			33|Jabón_Palmolive_Suavidad Relajante|128|96|32|Palmolive_Suavidad Relajante|Suavidad Relajante
+			34|Jabón_Protex|146|110|37|Protex|
+			35|Otros_Árboles|157|118|39|Árboles|
+			36|Otros_Cama|175|131|44|Cama|
+			37|Otros_Cepillo|75|56|19|Cepillo|
+			38|Otros_Cubiertos|165|124|41|Cubiertos|
+			39|Otros_Fondos de Colores|139|104|35|Fondos de Colores|
+			40|Otros_Fondos de lugares dentro de casa|142|107|36|Fondos de lugares dentro de casa|
+			41|Otros_Gato|78|59|20|Gato|
+			42|Otros_Lapicero|83|62|21|Lapicero|
+			43|Otros_Laptop|55|41|14|Laptop|
+			44|Otros_Lata|78|59|20|Lata|
+			45|Otros_Mano|75|56|19|Mano|
+			46|Otros_Mesa|84|63|21|Mesa|
+			47|Otros_Mouse|62|47|16|Mouse|
+			48|Otros_Olla|81|61|20|Olla|
+			49|Otros_Otros animales|167|125|42|Otros animales|
+			50|Otros_Otros objetos|157|118|39|Otros objetos|
+			51|Otros_Pasto|77|58|19|Pasto|
+			52|Otros_Perro|29|22|7|Perro|
+			53|Otros_Persona|106|80|27|Persona|
+			54|Otros_Silla|163|122|41|Silla|
+			55|Otros_Sillón|157|118|39|Sillón|
+			56|Otros_Taza|85|64|21|Taza|
+			57|Otros_Vaso|89|67|22|Vaso|
+			58|Otros_Vegetación|95|71|24|Vegetación|
+			59|Pasta Dental_Aquafresh|143|107|36|Aquafresh|
+			60|Pasta Dental_Colgate|208|156|52|Colgate|
+			61|Pasta Dental_Kolynos|83|62|21|Kolynos|
+			62|Pasta Dental_Oral B|169|127|42|Oral B|
+			63|Pasta Dental_Otros|161|121|40|Otros|
+			64|Pasta Dental_Sensodyne|166|125|42|Sensodyne|
+			65|Shampoo_Dove|184|138|46|Dove|
+			66|Shampoo_Elvive|132|99|33|Elvive|
+			67|Shampoo_H&S|197|148|49|H&S|
+			68|Shampoo_Herbal Essences|112|84|28|Herbal Essences|
+			69|Shampoo_Johnson|119|89|30|Johnson|
+			70|Shampoo_Otros|189|142|47|Otros|
+			71|Shampoo_Palmolive|224|168|56|Palmolive|
+			72|Shampoo_Pantene_Fuerza y Reconstrucción|129|97|32|Pantene_Fuerza y Reconstrucción|Fuerza y Reconstrucción
+			73|Shampoo_Pantene_Hidratación Extrema|75|56|19|Pantene_Hidratación Extrema|Hidratación Extrema
+			74|Shampoo_Pantene_Otro|145|109|36|Pantene_Otro|Otro
+			75|Shampoo_Pantene_Restauración|135|101|34|Pantene_Restauración|Restauración
+			76|Shampoo_Pert Plus|145|109|36|Pert Plus|
+			77|Shampoo_Savital|135|101|34|Savital|
+			78|Shampoo_Sedal|143|107|36|Sedal|
+			|**TOTAL**|**10443**|**7838**|**2618**||
+			|**PROMEDIO**|**134**||||
 
 
 
