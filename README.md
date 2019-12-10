@@ -68,7 +68,7 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 	* Es necesario si no se tiene un dataset limpio.
 	* Si es descargado de Imagenet o algún repositorio de imágenes validado y el dataset es limpio, de no ser así como Google Images deben de eliminarse las imágenes que no corresponde con la etiqueta o clase.
 5. **Split de Dataset**
-	* Se realiza dos 
+	* Se realizan dos splits, 
 	* El 75% para el entrenamiento.
 		* Para entrenamiento del modelo 75%
 		* Para validación del modelo 25%
@@ -79,19 +79,18 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			* Cantidad promedio de imágenes por clase: **824**
 			* El dataset es obtenido de Imagenet y la cantidad de imágenes por etiqueta es la siguiente:
 
-Etiqueta	Número de imágenes
-Ave	1308
-Gato	1044
-Perro	824
-Pez	742
-Flor	751
-Comida	1067
-Persona	844
-Reptil	705
-Árbol	60
-Utensilio	894
-
-
+			Etiqueta |	Número de imágenes
+			 ------ | --------- 
+			Ave |	1308
+			Gato |	1044
+			Perro |	824
+			Pez |	742
+			Flor |	751
+			Comida |	1067
+			Persona |	844
+			Reptil |	705
+			Árbol |	60
+			Utensilio |	894
 
 		* Un modelo múltiple, de varias capas o niveles:
 			* En este modelo se tiene 78 etiquetas o clases
