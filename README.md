@@ -80,7 +80,6 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			* [Entrenamiento Modelo 10 Etiquetas](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
 			* Cantidad promedio de imágenes por clase: **824**
 			* El dataset es obtenido de Imagenet y la cantidad de imágenes por etiqueta es la siguiente:
-
 			Etiqueta|Número de imágenes
 			------|------ 
 			Ave|1308
@@ -100,7 +99,6 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			* Este modelo consiste en entrenar múltiples modelos, ya que cuando se tienen menor número de clases por etiqueta (en este caso **133** en promedio por clase), si fuera evaluado con un solo modelo tendría muy baja eficiencia, ya que las CNN necesitan una gran cantidad de muestras por clase para una correcta clasificación o predicción.
 			* La imagen muestra como funciona el modelo multicapa, en este caso solo hasta el nivel 3, hay 10 modelos.
 			![No se cargó Modelo Multicapa - Nivel 3](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Modelo Multicapa - Nivel 3")
-
 			Número|Etiquetas|Número de imágenes|75%|25%|Etiquetas Nivel 2|Etiquetas Nivel 3
 			------|------|------|------|------|------|------
 			1|Agua Mineral_Cielo|144|108|36|Cielo|
