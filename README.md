@@ -80,6 +80,7 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			* [Entrenamiento Modelo 10 Etiquetas](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
 			* Cantidad promedio de imágenes por clase: **824**
 			* El dataset es obtenido de Imagenet y la cantidad de imágenes por etiqueta es la siguiente:
+
 			Etiqueta|Número de imágenes
 			------|------ 
 			Ave|1308
@@ -93,12 +94,13 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			Árbol|60
 			Utensilio|894
 		* Un modelo multicapa, de varias capas o niveles:
-			![No se cargó Modelo Multicapa](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Modelo Multicapa")
+			![No se cargó Modelo Multicapa](https://drive.google.com/uc?export=view&id=1OB5BB1tYygI5rHrnAeOf6BBw-lxX_oIw "Modelo Multicapa")
 			* [Entrenamiento Modelo Multicapa](http://www.dropwizard.io/1.0.2/docs/) - Carpeta de archivos Jupyter Notebook
 			* En este modelo se tiene 78 etiquetas o clases
 			* Este modelo consiste en entrenar múltiples modelos, ya que cuando se tienen menor número de clases por etiqueta (en este caso **133** en promedio por clase), si fuera evaluado con un solo modelo tendría muy baja eficiencia, ya que las CNN necesitan una gran cantidad de muestras por clase para una correcta clasificación o predicción.
 			* La imagen muestra como funciona el modelo multicapa, en este caso solo hasta el nivel 3, hay 10 modelos.
-			![No se cargó Modelo Multicapa - Nivel 3](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Modelo Multicapa - Nivel 3")
+			![No se cargó Modelo Multicapa - Nivel 3](https://drive.google.com/uc?export=view&id=11fGewFUtEG-3VszPrUNi8uBSnbTvjoSv "Modelo Multicapa - Nivel 3")
+
 			Número|Etiquetas|Número de imágenes|75%|25%|Etiquetas Nivel 2|Etiquetas Nivel 3
 			------|------|------|------|------|------|------
 			1|Agua Mineral_Cielo|144|108|36|Cielo|
@@ -194,7 +196,11 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 	* [Evaluar con Cámara - Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
 10. **Optimizar modelo inferencia**
 	* [Optimizar modelo para Inferencia](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
-
+11. **Aplicativo Android**
+	* Se usa una plantilla de Tensorflow para probar el modelo en un teléfono inteligente.
+	* [Aplicativo Android Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Proyecto
+	* [Aplicativo Android Modelo Primer Nivel](http://www.dropwizard.io/1.0.2/docs/) - Proyecto
+	* [Plantilla tensorflow](http://www.dropwizard.io/1.0.2/docs/)
 
 ## Ejecutando las pruebas ⚙️
 
