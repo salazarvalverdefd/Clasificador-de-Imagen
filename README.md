@@ -95,6 +95,7 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			* Este modelo consiste en entrenar múltiples modelos, ya que cuando se tienen menor número de clases por etiqueta (en este caso **133** en promedio por clase), si fuera evaluado con un solo modelo tendría muy baja eficiencia, ya que las CNN necesitan una gran cantidad de muestras por clase para una correcta clasificación o predicción.
 			* La imagen muestra como funciona el modelo multicapa, en este caso solo hasta el nivel 3, hay 10 modelos.
 			![No se cargó Modelo Multicapa - Nivel 3](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Modelo Multicapa - Nivel 3")
+
 			Etiquetas|Número de imágenes|75%|25%|Etiquetas Nivel 2|Etiquetas Nivel 3
 			------|------|------|------|------|------
 			Agua Mineral_Cielo|144|108|36|Cielo|
@@ -177,6 +178,7 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			Shampoo_Sedal|143|107.25|35.75|Sedal|
 			TOTAL|10443|7832.25|2610.75||
 			PROMEDIO|133.884615384615||||
+
 
 
 7. **Prueba del Modelo**
