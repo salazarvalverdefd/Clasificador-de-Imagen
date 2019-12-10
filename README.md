@@ -77,18 +77,19 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 		* Un modelo único entrenado con 10 etiquetas o clases.
 			* Cantidad promedio de imágenes por clase: **824**
 			* El dataset es obtenido de Imagenet y la cantidad de imágenes por etiqueta es la siguiente:
-			Etiqueta |	Número de imágenes
-			 ------ | ------ 
-			Ave |	1308
-			Gato |	1044
-			Perro |	824
-			Pez |	742
-			Flor |	751
-			Comida |	1067
-			Persona |	844
-			Reptil |	705
-			Árbol |	60
-			Utensilio |	894
+
+			Etiqueta|Número de imágenes
+			------|------ 
+			Ave|1308
+			Gato|1044
+			Perro|824
+			Pez|742
+			Flor|751
+			Comida|1067
+			Persona|844
+			Reptil|705
+			Árbol|60
+			Utensilio|894
 		* Un modelo múltiple, de varias capas o niveles:
 			![No se cargó Modelo Multicapa](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Modelo Multicapa")
 			* En este modelo se tiene 78 etiquetas o clases
@@ -176,8 +177,8 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			Shampoo_Pert Plus|145|108.75|36.25|Pert Plus|
 			Shampoo_Savital|135|101.25|33.75|Savital|
 			Shampoo_Sedal|143|107.25|35.75|Sedal|
-			TOTAL|10443|7832.25|2610.75||
-			PROMEDIO|133.884615384615||||
+			**TOTAL**|10443|7832.25|2610.75||
+			**PROMEDIO**|133.884615384615||||
 
 
 
