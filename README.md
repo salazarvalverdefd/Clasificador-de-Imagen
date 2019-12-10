@@ -97,86 +97,89 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			![No se cargó Modelo Multicapa - Nivel 3](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Modelo Multicapa - Nivel 3")
 
 			Etiquetas|Número de imágenes|75%|25%|Etiquetas Nivel 2|Etiquetas Nivel 3
-			Etiquetas|------|------|------|------|------
-			Etiquetas|144|108|36|Cielo|
-			Etiquetas|227|170.25|56.75|Otros|
-			Etiquetas|89|66.75|22.25|San Carlos|
-			Etiquetas|144|108|36|San Luis|
-			Etiquetas|119|89.25|29.75|San Mateo|
-			Etiquetas|76|57|19|Altomayo|
-			Etiquetas|71|53.25|17.75|Cafetal|
-			Etiquetas|69|51.75|17.25|Kirma|
-			Etiquetas|69|51.75|17.25|Nescafé|
-			Etiquetas|223|167.25|55.75|Otros|
-			Etiquetas|71|53.25|17.75|7up|
-			Etiquetas|217|162.75|54.25|Coca Cola|
-			Etiquetas|66|49.5|16.5|Crush|
-			Etiquetas|78|58.5|19.5|Fanta|
-			Etiquetas|81|60.75|20.25|Guaraná|
-			Etiquetas|153|114.75|38.25|Inka Kola|
-			Etiquetas|70|52.5|17.5|KR|
-			Etiquetas|156|117|39|Otros|
-			Etiquetas|138|103.5|34.5|Pepsi|
-			Etiquetas|130|97.5|32.5|Sprite|
-			Etiquetas|222|166.5|55.5|Asepxia|
-			Etiquetas|80|60|20|Bolivar|
-			Etiquetas|219|164.25|54.75|Camay|
-			Etiquetas|295|221.25|73.75|Dove|
-			Etiquetas|237|177.75|59.25|Johnson|
-			Etiquetas|295|221.25|73.75|Lux|
-			Etiquetas|75|56.25|18.75|Neko|
-			Etiquetas|151|113.25|37.75|Nivea|
-			Etiquetas|129|96.75|32.25|Otros|
-			Etiquetas|137|102.75|34.25|Palmolive_Delicada Exfoliación|Delicada Exfoliación
-			Etiquetas|219|164.25|54.75|Palmolive_Otros|Otros
-			Etiquetas|151|113.25|37.75|Palmolive_Sensación Humectante|Sensación Humectante
-			Etiquetas|128|96|32|Palmolive_Suavidad Relajante|Suavidad Relajante
-			Etiquetas|146|109.5|36.5|Protex|
-			Etiquetas|157|117.75|39.25|Árboles|
-			Etiquetas|175|131.25|43.75|Cama|
-			Etiquetas|75|56.25|18.75|Cepillo|
-			Etiquetas|165|123.75|41.25|Cubiertos|
-			Etiquetas|139|104.25|34.75|Fondos de Colores|
-			Etiquetas|142|106.5|35.5|Fondos de lugares dentro de casa|
-			Etiquetas|78|58.5|19.5|Gato|
-			Etiquetas|83|62.25|20.75|Lapicero|
-			Etiquetas|55|41.25|13.75|Laptop|
-			Etiquetas|78|58.5|19.5|Lata|
-			Etiquetas|75|56.25|18.75|Mano|
-			Etiquetas|84|63|21|Mesa|
-			Etiquetas|62|46.5|15.5|Mouse|
-			Etiquetas|81|60.75|20.25|Olla|
-			Etiquetas|167|125.25|41.75|Otros animales|
-			Etiquetas|157|117.75|39.25|Otros objetos|
-			Etiquetas|77|57.75|19.25|Pasto|
-			Etiquetas|29|21.75|7.25|Perro|
-			Etiquetas|106|79.5|26.5|Persona|
-			Etiquetas|163|122.25|40.75|Silla|
-			Etiquetas|157|117.75|39.25|Sillón|
-			Etiquetas|85|63.75|21.25|Taza|
-			Etiquetas|89|66.75|22.25|Vaso|
-			Etiquetas|95|71.25|23.75|Vegetación|
-			Etiquetas|143|107.25|35.75|Aquafresh|
-			Etiquetas|208|156|52|Colgate|
-			Etiquetas|83|62.25|20.75|Kolynos|
-			Etiquetas|169|126.75|42.25|Oral B|
-			Etiquetas|161|120.75|40.25|Otros|
-			Etiquetas|166|124.5|41.5|Sensodyne|
-			Etiquetas|184|138|46|Dove|
-			Etiquetas|132|99|33|Elvive|
-			Etiquetas|197|147.75|49.25|H&S|
-			Etiquetas|112|84|28|Herbal Essences|
-			Etiquetas|119|89.25|29.75|Johnson|
-			Etiquetas|189|141.75|47.25|Otros|
-			Etiquetas|224|168|56|Palmolive|
-			Etiquetas|129|96.75|32.25|Pantene_Fuerza y Reconstrucción|Fuerza y Reconstrucción
-			Etiquetas|75|56.25|18.75|Pantene_Hidratación Extrema|Hidratación Extrema
-			Etiquetas|145|108.75|36.25|Pantene_Otro|Otro
-			Etiquetas|135|101.25|33.75|Pantene_Restauración|Restauración
-			Etiquetas|145|108.75|36.25|Pert Plus|
-			Etiquetas|135|101.25|33.75|Savital|
-			Etiquetas|143|107.25|35.75|Sedal|
-			Etiquetas|10443|7832.25|2610.75||
+			------|------|------|------|------|------
+			Agua Mineral_Cielo|144|108|36|Cielo|
+			Agua Mineral_Otros|227|170.25|56.75|Otros|
+			Agua Mineral_San Carlos|89|66.75|22.25|San Carlos|
+			Agua Mineral_San Luis|144|108|36|San Luis|
+			Agua Mineral_San Mateo|119|89.25|29.75|San Mateo|
+			Café_Altomayo|76|57|19|Altomayo|
+			Café_Cafetal|71|53.25|17.75|Cafetal|
+			Café_Kirma|69|51.75|17.25|Kirma|
+			Café_Nescafé|69|51.75|17.25|Nescafé|
+			Café_Otros|223|167.25|55.75|Otros|
+			Gaseosa_7up|71|53.25|17.75|7up|
+			Gaseosa_Coca Cola|217|162.75|54.25|Coca Cola|
+			Gaseosa_Crush|66|49.5|16.5|Crush|
+			Gaseosa_Fanta|78|58.5|19.5|Fanta|
+			Gaseosa_Guaraná|81|60.75|20.25|Guaraná|
+			Gaseosa_Inka Kola|153|114.75|38.25|Inka Kola|
+			Gaseosa_KR|70|52.5|17.5|KR|
+			Gaseosa_Otros|156|117|39|Otros|
+			Gaseosa_Pepsi|138|103.5|34.5|Pepsi|
+			Gaseosa_Sprite|130|97.5|32.5|Sprite|
+			Jabón_Asepxia|222|166.5|55.5|Asepxia|
+			Jabón_Bolivar|80|60|20|Bolivar|
+			Jabón_Camay|219|164.25|54.75|Camay|
+			Jabón_Dove|295|221.25|73.75|Dove|
+			Jabón_Johnson|237|177.75|59.25|Johnson|
+			Jabón_Lux|295|221.25|73.75|Lux|
+			Jabón_Neko|75|56.25|18.75|Neko|
+			Jabón_Nivea|151|113.25|37.75|Nivea|
+			Jabón_Otros|129|96.75|32.25|Otros|
+			Jabón_Palmolive_Delicada Exfoliación|137|102.75|34.25|Palmolive_Delicada Exfoliación|Delicada Exfoliación
+			Jabón_Palmolive_Otros|219|164.25|54.75|Palmolive_Otros|Otros
+			Jabón_Palmolive_Sensación Humectante|151|113.25|37.75|Palmolive_Sensación Humectante|Sensación Humectante
+			Jabón_Palmolive_Suavidad Relajante|128|96|32|Palmolive_Suavidad Relajante|Suavidad Relajante
+			Jabón_Protex|146|109.5|36.5|Protex|
+			Otros_Árboles|157|117.75|39.25|Árboles|
+			Otros_Cama|175|131.25|43.75|Cama|
+			Otros_Cepillo|75|56.25|18.75|Cepillo|
+			Otros_Cubiertos|165|123.75|41.25|Cubiertos|
+			Otros_Fondos de Colores|139|104.25|34.75|Fondos de Colores|
+			Otros_Fondos de lugares dentro de casa|142|106.5|35.5|Fondos de lugares dentro de casa|
+			Otros_Gato|78|58.5|19.5|Gato|
+			Otros_Lapicero|83|62.25|20.75|Lapicero|
+			Otros_Laptop|55|41.25|13.75|Laptop|
+			Otros_Lata|78|58.5|19.5|Lata|
+			Otros_Mano|75|56.25|18.75|Mano|
+			Otros_Mesa|84|63|21|Mesa|
+			Otros_Mouse|62|46.5|15.5|Mouse|
+			Otros_Olla|81|60.75|20.25|Olla|
+			Otros_Otros animales|167|125.25|41.75|Otros animales|
+			Otros_Otros objetos|157|117.75|39.25|Otros objetos|
+			Otros_Pasto|77|57.75|19.25|Pasto|
+			Otros_Perro|29|21.75|7.25|Perro|
+			Otros_Persona|106|79.5|26.5|Persona|
+			Otros_Silla|163|122.25|40.75|Silla|
+			Otros_Sillón|157|117.75|39.25|Sillón|
+			Otros_Taza|85|63.75|21.25|Taza|
+			Otros_Vaso|89|66.75|22.25|Vaso|
+			Otros_Vegetación|95|71.25|23.75|Vegetación|
+			Pasta Dental_Aquafresh|143|107.25|35.75|Aquafresh|
+			Pasta Dental_Colgate|208|156|52|Colgate|
+			Pasta Dental_Kolynos|83|62.25|20.75|Kolynos|
+			Pasta Dental_Oral B|169|126.75|42.25|Oral B|
+			Pasta Dental_Otros|161|120.75|40.25|Otros|
+			Pasta Dental_Sensodyne|166|124.5|41.5|Sensodyne|
+			Shampoo_Dove|184|138|46|Dove|
+			Shampoo_Elvive|132|99|33|Elvive|
+			Shampoo_H&S|197|147.75|49.25|H&S|
+			Shampoo_Herbal Essences|112|84|28|Herbal Essences|
+			Shampoo_Johnson|119|89.25|29.75|Johnson|
+			Shampoo_Otros|189|141.75|47.25|Otros|
+			Shampoo_Palmolive|224|168|56|Palmolive|
+			Shampoo_Pantene_Fuerza y Reconstrucción|129|96.75|32.25|Pantene_Fuerza y Reconstrucción|Fuerza y Reconstrucción
+			Shampoo_Pantene_Hidratación Extrema|75|56.25|18.75|Pantene_Hidratación Extrema|Hidratación Extrema
+			Shampoo_Pantene_Otro|145|108.75|36.25|Pantene_Otro|Otro
+			Shampoo_Pantene_Restauración|135|101.25|33.75|Pantene_Restauración|Restauración
+			Shampoo_Pert Plus|145|108.75|36.25|Pert Plus|
+			Shampoo_Savital|135|101.25|33.75|Savital|
+			Shampoo_Sedal|143|107.25|35.75|Sedal|
+			TOTAL|10443|7832.25|2610.75||
+			PROMEDIO|133.884615384615||||
+
+
 
 7. **Prueba del Modelo**
 	* [Prueba del Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
