@@ -98,7 +98,7 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			![No se cargó Modelo Multicapa - Nivel 3](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Modelo Multicapa - Nivel 3")
 
 			Número|Etiquetas|Número de imágenes|75%|25%|Etiquetas Nivel 2|Etiquetas Nivel 3
-			|------|------|------|------|------|------
+			------|------|------|------|------|------|------
 			1|Agua Mineral_Cielo|144|108|36|Cielo|
 			2|Agua Mineral_Otros|227|170|57|Otros|
 			3|Agua Mineral_San Carlos|89|67|22|San Carlos|
@@ -179,8 +179,6 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			78|Shampoo_Sedal|143|107|36|Sedal|
 			|**TOTAL**|**10443**|**7838**|**2618**||
 			|**PROMEDIO**|**134**||||
-
-
 
 7. **Prueba del Modelo**
 	* [Prueba del Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
