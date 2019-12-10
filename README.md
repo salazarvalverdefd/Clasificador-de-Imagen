@@ -78,7 +78,7 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			* Cantidad promedio de imágenes por clase: **824**
 			* El dataset es obtenido de Imagenet y la cantidad de imágenes por etiqueta es la siguiente:
 			Etiqueta |	Número de imágenes
-			 ------ | --------- 
+			 ------ | ------ 
 			Ave |	1308
 			Gato |	1044
 			Perro |	824
