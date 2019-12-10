@@ -66,15 +66,18 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 4. **Limpieza de data**
 	* Es necesario si no se tiene un dataset limpio.
 	* Si es descargado de Imagenet o algún repositorio de imágenes validado y el dataset es limpio, de no ser así como Google Images deben de eliminarse las imágenes que no corresponde con la etiqueta o clase.
+	* [Limpieza de data](http://www.dropwizard.io/1.0.2/docs/) - Descripción
 5. **Split de Dataset**
 	* Se realizan dos splits, 
 	* El 75% para el entrenamiento.
 		* Para entrenamiento del modelo 75%
 		* Para validación del modelo 25%
 	* El 25% para prueba.
+	* [Split de Dataset](http://www.dropwizard.io/1.0.2/docs/) - Descripción
 6. **Entrenamiento Modelo**
 	* Se ha entrenado dos tipos de modelos
 		* Un modelo único entrenado con 10 etiquetas o clases.
+			* [Entrenamiento Modelo 10 Etiquetas](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
 			* Cantidad promedio de imágenes por clase: **824**
 			* El dataset es obtenido de Imagenet y la cantidad de imágenes por etiqueta es la siguiente:
 
@@ -90,8 +93,9 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			Reptil|705
 			Árbol|60
 			Utensilio|894
-		* Un modelo múltiple, de varias capas o niveles:
+		* Un modelo multicapa, de varias capas o niveles:
 			![No se cargó Modelo Multicapa](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Modelo Multicapa")
+			* [Entrenamiento Modelo Multicapa](http://www.dropwizard.io/1.0.2/docs/) - Carpeta de archivos Jupyter Notebook
 			* En este modelo se tiene 78 etiquetas o clases
 			* Este modelo consiste en entrenar múltiples modelos, ya que cuando se tienen menor número de clases por etiqueta (en este caso **133** en promedio por clase), si fuera evaluado con un solo modelo tendría muy baja eficiencia, ya que las CNN necesitan una gran cantidad de muestras por clase para una correcta clasificación o predicción.
 			* La imagen muestra como funciona el modelo multicapa, en este caso solo hasta el nivel 3, hay 10 modelos.
@@ -179,7 +183,6 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			78|Shampoo_Sedal|143|107|36|Sedal|
 			|**TOTAL**|**10443**|**7838**|**2618**||
 			|**PROMEDIO**|**134**||||
-
 7. **Prueba del Modelo**
 	* [Prueba del Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
 		* Obtener matriz de confusión.
