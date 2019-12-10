@@ -1,4 +1,6 @@
 # Reconocimiento de Imágenes
+___
+![No se cargó Carátula](https://drive.google.com/uc?export=view&id=1_ofjwM6j5GQ30WPOGifmI9eOLKeUo4NN "Carátula")
 
 Repositorio donde se encuentran los archivos correspondientes a la tesis ***"Aplicación de redes neuronales convolucionales para el etiquetado de imágenes automático para personas con impedimentos visuales"*** presentada en el curso de **TESIS II** en la **Universidad Nacional de Ingeniería** Lima, Perú - Diciembre 2019.
 
@@ -7,28 +9,23 @@ Los archivos contienen los procesos desde la descarga de imágenes, el entrenami
 El método usado para el entrenamiento del modelo de reconocimiento de imágenes es Redes Neuronales Convolucionales o **CNN** por sus siglas en inglés Convolutional Neural Network.
 
 
-
 ____
 ## Modelo Solución 
 
 
-| Modelo | Color   | Precio |
-| ------ |---------| -------|
-| Globe  | Negro   | 99€    |
-| Scala  | Azul    | 199€   |
-| Palais | Granate | 399€   |
-
+![No se cargó Modelo Solución](https://drive.google.com/uc?export=view&id=1H5KUuD_5275dO8V4KE51aT6UB-Z6wOQa "Modelo Solución")
 
 |Variable|	Descripción|
-IE(i)	Imágenes de entrada por cada clase i
-MIE(i)(j)	Métricas de cada imagen j de la clase i (peso Kb, tamaño píxeles)
-NE	Es el número de etiquetas que tendrá el modelo solución
-FA(j)	Es la función de activación que se usará para el entrenamiento, para cada capa (j).
-FP(j)	Es la función de pérdida que se usará para el entrenamiento, para cada capa (j).
-ME	Modelo entrenado
-EI(i)	Etiqueta de imagen i
-AP	Precisión media, métrica de eficiencia.
-F-Score	Puntación F, métrica de eficiencia.
+| ------ |---------| -------|
+|IE(i)	|Imágenes de entrada por cada clase i|
+|MIE(i)(j)	|Métricas de cada imagen j de la clase i (peso Kb, tamaño píxeles)
+|NE	|Es el número de etiquetas que tendrá el modelo solución|
+|FA(j)	|Es la función de activación que se usará para el entrenamiento, para cada capa (j).|
+|FP(j)	|Es la función de pérdida que se usará para el entrenamiento, para cada capa (j).|
+|ME	|Modelo entrenado|
+|EI(i)	|Etiqueta de imagen i|
+|AP	|Precisión media, métrica de eficiencia.|
+|F-Score	|Puntación F, métrica de eficiencia.|
 
 
 ## Comenzando 🚀
@@ -51,7 +48,7 @@ Las librerías más importantes necesarias son:
 
 Los procesos a realizarse son:
 
-![No se cargó procesos del Modelo Solución](https://drive.google.com/uc?export=view&id=1yNhlzQRv0ixXZbmGCoA1goGfedxOrFul "Procesos del Modelo Solución")
+![No se cargó procesos del Modelo Solución](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")
 
 Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron desarrollado en Jupyter Notebook:
 
@@ -61,9 +58,9 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 	* [Dataset Imagenet](http://image-net.org/synset?wnid=n02084071) - Descargar del dataset de Imagenet por synset
 2. Descarga de imágenes
 	* [Descarga Imágenes](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
-	* Link de referencia: [How to create a deep learning dataset using Google Images](https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/)
 3. Limpiar imágenes corruptas
-	* Imágenes descargadas que no tienen peso alguno.
+	* [Limpieza Imágenes vacías](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+		* Imágenes descargadas que no tienen peso alguno.
 4. Limpieza de data
 	* Es necesario si no se tiene un dataset limpio.
 	* Si es descargado de Imagenet o algún repositorio de imágenes validado y el dataset es limpio, de no ser así como Google Images deben de eliminarse las imágenes que no corresponde con la etiqueta o clase.
