@@ -1,53 +1,88 @@
 # Reconocimiento de Imágenes
 
-_En este repositorio se encuentran los pasos necesarios para realizar el etiquetado de imágenes con el usp_
+Repositorio donde se encuentran los archivos correspondientes a la tesis ***"Aplicación de redes neuronales convolucionales para el etiquetado de imágenes automático para personas con impedimentos visuales"*** presentada en el curso de **TESIS II** en la **Universidad Nacional de Ingeniería** Lima, Perú - Diciembre 2019.
 
-___
-## Pasos para entrenar un modelo de redes neuronales convolucionales
+Los archivos contienen los procesos desde la descarga de imágenes, el entrenamiento del modelo, y un prototipo de una aplicación  en android.
+
+El método usado para el entrenamiento del modelo de reconocimiento de imágenes es Redes Neuronales Convolucionales o **CNN** por sus siglas en inglés Convolutional Neural Network.
+
+
+
+____
+## Modelo Solución 
+
+
+| Modelo | Color   | Precio |
+| ------ |---------| -------|
+| Globe  | Negro   | 99€    |
+| Scala  | Azul    | 199€   |
+| Palais | Granate | 399€   |
+
+
+|Variable|	Descripción|
+IE(i)	Imágenes de entrada por cada clase i
+MIE(i)(j)	Métricas de cada imagen j de la clase i (peso Kb, tamaño píxeles)
+NE	Es el número de etiquetas que tendrá el modelo solución
+FA(j)	Es la función de activación que se usará para el entrenamiento, para cada capa (j).
+FP(j)	Es la función de pérdida que se usará para el entrenamiento, para cada capa (j).
+ME	Modelo entrenado
+EI(i)	Etiqueta de imagen i
+AP	Precisión media, métrica de eficiencia.
+F-Score	Puntación F, métrica de eficiencia.
 
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+En este proyecto se usa el lenguaje Python, para realizar el proceso es necesario algunas librerías, que se describen a continuación.
 
-Mira **Deployment** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Las librerías más importantes necesarias son:
 
-```
-Da un ejemplo
-```
+* Tensorflow 
+	* Versión 1.13.1 (Entrenar modelo y exportar .pb)
+	* Versión 1.14, 2.0 (Entrenar modelo)
+* Keras
+
+
+### Procesos 🔧
+
+Los procesos a realizarse son:
+
+![No se cargó procesos del Modelo Solución](https://drive.google.com/uc?export=view&id=1yNhlzQRv0ixXZbmGCoA1goGfedxOrFul "Procesos del Modelo Solución")
+
+Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron desarrollado en Jupyter Notebook:
 
 1. Descarga de Urls de imágenes para el entrenamiento
+	* [Archivo JS Descarga URL](http://www.dropwizard.io/1.0.2/docs/) - Descargar link de imágenes del buscador de Google
+		* Link de referencia: [How to create a deep learning dataset using Google Images](https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/)
+	* [Dataset Imagenet](http://image-net.org/synset?wnid=n02084071) - Descargar del dataset de Imagenet por synset
+2. Descarga de imágenes
+	* [Descarga Imágenes](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+	* Link de referencia: [How to create a deep learning dataset using Google Images](https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/)
+3. Limpiar imágenes corruptas
+	* Imágenes descargadas que no tienen peso alguno.
+4. Limpieza de data
+	* Es necesario si no se tiene un dataset limpio.
+	* Si es descargado de Imagenet o algún repositorio de imágenes validado y el dataset es limpio, de no ser así como Google Images deben de eliminarse las imágenes que no corresponde con la etiqueta o clase.
+5. Split de Dataset
+	* Se realiza dos 
+	* El 75% para el entrenamiento.
+		* Se div
+	* El 25% para prueba.
+6. Entrenamiento Modelo
+	* 
+7. Prueba del Modelo
+	* 
+8. Evaluar modelo estático imagen
+	* 
+9. Evaluar modelo tiempo real opencv
+	* 
+10. Optimizar modelo inferencia
+	* 
 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
@@ -95,10 +130,9 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Freddy Dick Salazar Valverde** - *Alumno Tesista* - [villanuevand](https://github.com/villanuevand)
+* **Wester Zela Moraya** - *Asesor de Tesis* - [fulanitodetal](#fulanito-de-tal)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
