@@ -18,7 +18,7 @@ ____
 ![No se cargó Modelo Solución](https://drive.google.com/uc?export=view&id=1H5KUuD_5275dO8V4KE51aT6UB-Z6wOQa "Modelo Solución")
 	
  Variable |	Descripción 
- ------ | --------- | ------- 
+ ------ | --------- 
 IE(i)	|Imágenes de entrada por cada clase i
 MIE(i)(j)	|Métricas de cada imagen j de la clase i (peso Kb, tamaño píxeles)
 NE	|Es el número de etiquetas que tendrá el modelo solución
