@@ -188,9 +188,9 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 		* Obtener matriz de confusión.
 		* Métrica de eficiencia: Average F1 Score - Mean Average Precision
 8. **Evaluar modelo estático imagen**
-	* [Prueba del Modelo Básico](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/8.%20Evaluar%20modelo%20est%C3%A1tico%20imagen%20-%20Modelo%20B%C3%A1sico.ipynb) - Archivo Jupyter Notebook
+	* [Evaluar Modelo Básico](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/8.%20Evaluar%20modelo%20est%C3%A1tico%20imagen%20-%20Modelo%20B%C3%A1sico.ipynb) - Archivo Jupyter Notebook
 		* Obtener matriz de confusión.
-	* [Prueba del Modelo Multicapa](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/8.%20Evaluar%20modelo%20est%C3%A1tico%20imagen%20-%20Modelo%20Multicapa.ipynb) - Archivo Jupyter Notebook
+	* [Evaluar Modelo Multicapa](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/8.%20Evaluar%20modelo%20est%C3%A1tico%20imagen%20-%20Modelo%20Multicapa.ipynb) - Archivo Jupyter Notebook
 		* Obtener matriz de confusión.
 9. **Evaluar modelo tiempo real opencv**
 	* [Evaluar con Cámara - Modelo Básico](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/9.%20Evaluar%20modelo%20tiempo%20real%20opencv.ipynb) - Archivo Jupyter Notebook
@@ -198,9 +198,10 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 	* [Optimizar modelo para Inferencia](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/10.%20Optimizar_modelo_inferencia.ipynb) - Archivo Jupyter Notebook
 11. **Aplicativo Android**
 	* Se usa una plantilla de Tensorflow para probar el modelo en un teléfono inteligente.
-	* [Aplicativo Android Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Proyecto y APK
-	* [Aplicativo Android Modelo Multicapa - Primer Nivel](http://www.dropwizard.io/1.0.2/docs/) - Proyecto y APK
-	* [Plantilla tensorflow](http://www.dropwizard.io/1.0.2/docs/)
+	* [Aplicativo Android Modelo Básico](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/tree/master/Android/Modelo%20Simple) - Proyecto y APK
+	* [Aplicativo Android Modelo Multicapa - Primer Nivel](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/tree/master/Android/Modelo%20Multicapa%20-%20Primer%20Nivel) - Proyecto y APK
+	* [Plantilla tensorflow](https://github.com/googlecodelabs/tensorflow-for-poets-2)
+	* [Guía utilización](https://tensorflowdoc.readthedocs.io/es/latest/7rit.html)
 
 ## Pruebas ⚙️
 
@@ -310,7 +311,6 @@ Persona (score=0.00624)|Reptil (score=0.01254)|Ave (score=0.06465)
 * **Freddy Dick Salazar Valverde** - *Alumno Tesista* - [salazarvalverdefd](https://github.com/salazarvalverdefd) - [DickSalazar](http://www.ssyspe.org/memberlist.php?mode=viewprofile&u=1747)
 * **Wester Zela Moraya** - *Asesor de Tesis* - [wester.zela](http://www.ssyspe.org/memberlist.php?mode=viewprofile&u=54)
 
-
-
+[Forum - Artificial Intelligence - AI Projects (SSYSPE)](https://www.ssyspe.org/viewforum.php?f=37)
 ---
  Por [Freddy Dick Salazar Valverde](https://github.com/salazarvalverdefd) - [DickSalazar](http://www.ssyspe.org/memberlist.php?mode=viewprofile&u=1747)😊
