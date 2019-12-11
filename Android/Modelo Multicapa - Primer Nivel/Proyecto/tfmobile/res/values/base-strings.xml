@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">Etiquetado de Imágenes - 10</string>
+    <string name="activity_name_classification">Image Tagging- 10</string>
+    <string name="activity_name_detection">TF Detect- 10</string>
+    <string name="activity_name_stylize">TF Stylize- 10</string>
+</resources>

@@ -1,0 +1,4 @@
+#Wed Dec 11 11:57:17 COT 2019
+base.0=C\:\\Users\\DICK\\Downloads\\Compressed\\Subir\\Modelo Simple\\Proyecto\\tfmobile\\gradleBuild\\intermediates\\transforms\\dexMerger\\debug\\1
+renamed.0=classes.dex
+file.0=C\:\\Users\\DICK\\Downloads\\Compressed\\Subir\\Modelo Simple\\Proyecto\\tfmobile\\gradleBuild\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex

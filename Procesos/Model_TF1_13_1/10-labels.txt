@@ -1,0 +1,10 @@
+Ave
+Gato
+Perro
+Pez
+Flor
+Comida
+Persona
+Reptil
+Arbol
+Utensilio
