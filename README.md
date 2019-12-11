@@ -55,29 +55,29 @@ Los procesos a realizarse son:
 Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron desarrollado en Jupyter Notebook:
 
 1. **Descarga de Urls de imágenes para el entrenamiento**
-	* [Archivo JS Descarga URL](http://www.dropwizard.io/1.0.2/docs/) - Descargar link de imágenes del buscador de Google
+	* [Archivo JS Descarga URL](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/1.%20js_descarga_url_google.txt) - Descargar link de imágenes del buscador de Google
 		* Link de referencia: [How to create a deep learning dataset using Google Images](https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/)
 	* [Dataset Imagenet](http://image-net.org/synset?wnid=n02084071) - Descargar del dataset de Imagenet por synset
 2. **Descarga de imágenes**
-	* [Descarga Imágenes](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+	* [Descarga Imágenes](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/2.%20Descarga%20de%20im%C3%A1genes.ipynb) - Archivo Jupyter Notebook
 3. **Limpiar imágenes corruptas**
-	* [Limpieza Imágenes vacías](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+	* [Limpieza Imágenes vacías](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/3.%20Limpiar%20im%C3%A1genes%20corruptas.ipynb) - Archivo Jupyter Notebook
 		* Imágenes descargadas que no tienen peso alguno.
 4. **Limpieza de data**
 	* Es necesario si no se tiene un dataset limpio.
 	* Si es descargado de Imagenet o algún repositorio de imágenes validado y el dataset es limpio, de no ser así como Google Images deben de eliminarse las imágenes que no corresponde con la etiqueta o clase.
-	* [Limpieza de data](http://www.dropwizard.io/1.0.2/docs/) - Descripción
+	* [Limpieza de data](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/4.%20Limpieza%20de%20data.txt) - Descripción
 5. **Split de Dataset**
 	* Se realizan dos splits, 
 	* El 75% para el entrenamiento.
 		* Para entrenamiento del modelo 75%
 		* Para validación del modelo 25%
 	* El 25% para prueba.
-	* [Split de Dataset](http://www.dropwizard.io/1.0.2/docs/) - Descripción
+	* [Split de Dataset](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/5.%20Split%20de%20Dataset.txt) - Descripción
 6. **Entrenamiento Modelo**
 	* Se ha entrenado dos tipos de modelos
 		* Un modelo único entrenado con 10 etiquetas o clases.
-			* [Entrenamiento Modelo 10 Etiquetas](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+			* [Entrenamiento Modelo 10 Etiquetas](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/6.%20Entrenamiento%20Modelo_10_etiquetas.ipynb) - Archivo Jupyter Notebook
 			* Cantidad promedio de imágenes por clase: **824**
 			* El dataset es obtenido de Imagenet y la cantidad de imágenes por etiqueta es la siguiente:
 
@@ -95,7 +95,7 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			Utensilio|894
 		* Un modelo multicapa, de varias capas o niveles:
 			![No se cargó Modelo Multicapa](https://drive.google.com/uc?export=view&id=1OB5BB1tYygI5rHrnAeOf6BBw-lxX_oIw "Modelo Multicapa")
-			* [Entrenamiento Modelo Multicapa](http://www.dropwizard.io/1.0.2/docs/) - Carpeta de archivos Jupyter Notebook
+			* [Entrenamiento Modelo Multicapa](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/tree/master/Procesos/6.%20Entrenamiento%20Modelos%20Multicapa) - Carpeta de archivos Jupyter Notebook
 			* En este modelo se tiene 78 etiquetas o clases
 			* Este modelo consiste en entrenar múltiples modelos, ya que cuando se tienen menor número de clases por etiqueta (en este caso **133** en promedio por clase), si fuera evaluado con un solo modelo tendría muy baja eficiencia, ya que las CNN necesitan una gran cantidad de muestras por clase para una correcta clasificación o predicción.
 			* La imagen muestra cómo funciona el modelo multicapa, en este caso solo hasta el nivel 3, hay 10 modelos.
@@ -184,18 +184,18 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			|**TOTAL**|**10443**|**7838**|**2618**||
 			|**PROMEDIO**|**134**||||
 7. **Prueba del Modelo**
-	* [Prueba del Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+	* [Prueba del Modelo Básico](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/7.%20Prueba%20de%20modelo.ipynb) - Archivo Jupyter Notebook
 		* Obtener matriz de confusión.
 		* Métrica de eficiencia: Average F1 Score - Mean Average Precision
 8. **Evaluar modelo estático imagen**
-	* [Prueba del Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+	* [Prueba del Modelo Básico](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/8.%20Evaluar%20modelo%20est%C3%A1tico%20imagen%20-%20Modelo%20B%C3%A1sico.ipynb) - Archivo Jupyter Notebook
 		* Obtener matriz de confusión.
-	* [Prueba del Modelo Multicapa](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+	* [Prueba del Modelo Multicapa](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/8.%20Evaluar%20modelo%20est%C3%A1tico%20imagen%20-%20Modelo%20Multicapa.ipynb) - Archivo Jupyter Notebook
 		* Obtener matriz de confusión.
 9. **Evaluar modelo tiempo real opencv**
-	* [Evaluar con Cámara - Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+	* [Evaluar con Cámara - Modelo Básico](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/9.%20Evaluar%20modelo%20tiempo%20real%20opencv.ipynb) - Archivo Jupyter Notebook
 10. **Optimizar modelo inferencia**
-	* [Optimizar modelo para Inferencia](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
+	* [Optimizar modelo para Inferencia](https://github.com/salazarvalverdefd/Clasificador-de-Imagen/blob/master/Procesos/10.%20Optimizar_modelo_inferencia.ipynb) - Archivo Jupyter Notebook
 11. **Aplicativo Android**
 	* Se usa una plantilla de Tensorflow para probar el modelo en un teléfono inteligente.
 	* [Aplicativo Android Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Proyecto y APK
