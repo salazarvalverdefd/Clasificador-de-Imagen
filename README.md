@@ -1,4 +1,4 @@
-# Reconocimiento de Imágenes
+# Clasificador de Imagen
 ___
 
 <p align="center">
