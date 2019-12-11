@@ -202,9 +202,46 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 	* [Aplicativo Android Modelo Primer Nivel](http://www.dropwizard.io/1.0.2/docs/) - Proyecto
 	* [Plantilla tensorflow](http://www.dropwizard.io/1.0.2/docs/)
 
-## Ejecutando las pruebas ⚙️
+## Pruebas ⚙️
 
 _Explica como ejecutar las pruebas automatizadas para este sistema_
+
+### Pruebas Unitarias - Modelo Básico 🔩
+
+![No se cargó Ave](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó procesos del Comida](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó procesos del Flor](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")
+------|------|------
+Ave (score=0.55168)|Comida (score=0.99987)|Flor (score=0.95210)
+Reptil (score=0.39194)|Flor (score=0.00166)|Comida (score=0.11947)
+Utensilio (score=0.10660)|Pez (score=0.00120)|Pez (score=0.01694)
+Pez (score=0.06095)|Gato (score=0.00013)|Persona (score=0.00461)
+Perro (score=0.05183)|Utensilio (score=0.00013)|Gato (score=0.00333)
+
+![No se cargó Gato](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó Perro](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó Persona](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")
+------|------|------
+Gato (score=0.98599)|Perro (score=0.84811)|Persona (score=0.36379)
+Perro (score=0.05299)|Gato (score=0.24164)|Pez (score=0.11069)
+Utensilio (score=0.02251)|Ave (score=0.10057)|Perro (score=0.09442)
+Pez (score=0.01433)|Persona (score=0.05738)|Reptil (score=0.06520)
+Persona (score=0.00624)|Reptil (score=0.01254)|Ave (score=0.06465)
+
+
+### Pruebas Unitarias - Modelo Multicapa 🔩
+
+
+### Resultado Aplicativo - Modelo Básico 🔩
+
+
+## Análisis de resultados ⌨️
+
+
+### Matriz de Confusión Model Básico 🔩
+
+|           |       Agrupación      ||  
+----------|:------------:|:----------:|  
+Contenido   |  *largo de la celda*  ||  
+Contenido   | **celda**  | celda     |  
+
+### Medidas de eficiencia 🔩
 
 ### Analice las pruebas end-to-end 🔩
 
