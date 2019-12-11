@@ -236,10 +236,21 @@ Persona (score=0.00624)|Reptil (score=0.01254)|Ave (score=0.06465)
 
 ### Matriz de Confusión Model Básico 🔩
 
-|           |       Agrupación      ||  
-----------|:------------:|:----------:|  
-Contenido   |  *largo de la celda*  ||  
-Contenido   | **celda**  | celda     |  
+|||||Valor predicho||||||
+------|------|------|------|------|------|------|------|------|------|------|------
+||Ave|Gato|Perro|Pez|Flor|Comida|Persona|Reptil|Árbol|Utensilio
+|Ave|281|4|5|4|4|3|5|7|0|7
+|Gato|24|227|7|8|6|9|14|8|0|17
+|Perro|28|6|226|8|8|3|14|14|0|13
+|Pez|28|2|2|244|3|9|6|9|0|17
+Valor Real|Flor|6|0|0|0|308|4|0|1|0|1
+|Comida|0|0|0|4|7|308|0|0|0|1
+|Persona|9|1|3|6|2|4|273|6|1|15
+|Reptil|17|2|5|9|12|7|4|253|0|11
+|Árbol|10|0|0|10|35|15|0|0|230|0
+|Utensilio|10|1|4|3|1|5|8|5|0|283
+
+
 
 ### Medidas de eficiencia 🔩
 
