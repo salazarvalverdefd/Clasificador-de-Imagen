@@ -1,0 +1,24 @@
+Arboles
+Cama
+Cepillo
+Cubiertos
+Fondos de Colores
+Fondos de lugares dentro de casa
+Gato
+Lapicero
+Laptop
+Lata
+Mano
+Mesa
+Mouse
+Olla
+Otros animales
+Otros objetos
+Pasto
+Perro
+Persona
+Silla
+Sillon
+Taza
+Vaso
+Vegetacion

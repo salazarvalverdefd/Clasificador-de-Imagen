@@ -1,0 +1,1 @@
+Eliminar las imágenes que no corresponde a las etiquetas en la que se encuentran.

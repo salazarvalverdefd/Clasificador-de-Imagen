@@ -1,0 +1,4 @@
+75% del total por clase para entrenamiento.
+	75% para train
+	25% para validación del entrenamiento
+25% del total por clase para prueba del modelo.
