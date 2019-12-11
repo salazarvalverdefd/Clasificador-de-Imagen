@@ -98,7 +98,7 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 			* [Entrenamiento Modelo Multicapa](http://www.dropwizard.io/1.0.2/docs/) - Carpeta de archivos Jupyter Notebook
 			* En este modelo se tiene 78 etiquetas o clases
 			* Este modelo consiste en entrenar múltiples modelos, ya que cuando se tienen menor número de clases por etiqueta (en este caso **133** en promedio por clase), si fuera evaluado con un solo modelo tendría muy baja eficiencia, ya que las CNN necesitan una gran cantidad de muestras por clase para una correcta clasificación o predicción.
-			* La imagen muestra como funciona el modelo multicapa, en este caso solo hasta el nivel 3, hay 10 modelos.
+			* La imagen muestra cómo funciona el modelo multicapa, en este caso solo hasta el nivel 3, hay 10 modelos.
 			![No se cargó Modelo Multicapa - Nivel 3](https://drive.google.com/uc?export=view&id=11fGewFUtEG-3VszPrUNi8uBSnbTvjoSv "Modelo Multicapa - Nivel 3")
 
 			Número|Etiquetas|Número de imágenes|75%|25%|Etiquetas Nivel 2|Etiquetas Nivel 3
@@ -226,22 +226,39 @@ Persona (score=0.00624)|Reptil (score=0.01254)|Ave (score=0.06465)
 
 ### Pruebas Unitarias - Modelo Multicapa 🔩 FALTA
 
-![No se cargó Ave](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó procesos del Comida](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó procesos del Flor](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")
-------|------|------
-Ave (score=0.55168)|Comida (score=0.99987)|Flor (score=0.95210)
-Reptil (score=0.39194)|Flor (score=0.00166)|Comida (score=0.11947)
-Utensilio (score=0.10660)|Pez (score=0.00120)|Pez (score=0.01694)
-Pez (score=0.06095)|Gato (score=0.00013)|Persona (score=0.00461)
-Perro (score=0.05183)|Utensilio (score=0.00013)|Gato (score=0.00333)
 
-![No se cargó Gato](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó Perro](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó Persona](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")
-------|------|------
-Gato (score=0.98599)|Perro (score=0.84811)|Persona (score=0.36379)
-Perro (score=0.05299)|Gato (score=0.24164)|Pez (score=0.11069)
-Utensilio (score=0.02251)|Ave (score=0.10057)|Perro (score=0.09442)
-Pez (score=0.01433)|Persona (score=0.05738)|Reptil (score=0.06520)
-Persona (score=0.00624)|Reptil (score=0.01254)|Ave (score=0.06465)
+|    Modelo Nivel 1                    |    Modelo Nivel 2                        |    Modelo Nivel 3                          |
+|--------------------------------------|------------------------------------------|--------------------------------------------|
+|    Jabon   (score=0.99999)           |    Palmolive (score=0.99189)             |    Sensacion Humectante (score=0.99904)    |
+|    Shampoo   (score=0.00567)         |    Lux (score=0.00000)                   |    Suavidad Relajante (score=0.01113)      |
+|    Pasta Dental   (score=0.00000)    |    Protex (score=0.00000)                |    Delicada Exfoliacion (score=0.00012)    |
+|    Gaseosa (score=0.00000)           |    Otros   (score=0.00000)               |    Otros   (score=0.00000)                 |
+|    Cafe (score=0.00000)              |    Camay (score=0.00000)                 |                                            |
+|                                      | **Jabon Palmolive Sensacion Humectante** |                                            |
+|                                      | ![No se cargó Jabon Palmolive Sensacion Humectante](https://drive.google.com/uc?export=view&id=1jnq3Xld2inGI11Jnv8vv1gveDfdvBmLM "Jabon Palmolive Sensacion Humectante") |                                            |
 
+
+|    Modelo Nivel 1                    |    Modelo Nivel 2                       |    Modelo Nivel 3                             |
+|--------------------------------------|-----------------------------------------|-----------------------------------------------|
+|    Shampoo   (score=0.99975)         |    Pantene (score=1.00000)              |    Hidratacion Extrema (score=1.00000)        |
+|    Pasta Dental   (score=0.00196)    |    Dove (score=0.00000)                 |    Otro (score=0.00000)                       |
+|    Cafe   (score=0.00003)            |    Savital (score=0.00000)              |    Restauracion (score=0.00000)               |
+|    Agua Mineral   (score=0.00002)    |    Sedal (score=0.00000)                |    Fuerza y Reconstruccion (score=0.00000)    |
+|    Jabon   (score=0.00001)           |    Pert Plus (score=0.00000)            |                                               |
+|                                      | **Shampoo Pantene Hidratacion Extrema** |                                               |
+|                                      | ![No se cargó Shampoo Pantene Hidratacion Extrema](https://drive.google.com/uc?export=view&id=1ciCdRT-cKvdU0xblkv5v8rh07aBq4u9Q "Shampoo Pantene Hidratacion Extrema")|                                               |
+
+
+
+|    Modelo Nivel 1                    |    Modelo Nivel 2               |    Modelo Nivel 3    |
+|--------------------------------------|---------------------------------|----------------------|
+|    Gaseosa   (score=1.00000)         |    Coca Cola (score=0.99896)    |                      |
+|    Cafe   (score=0.00000)            |    KR (score=0.00036)           |                      |
+|    Pasta Dental   (score=0.00000)    |    Otros (score=0.00001)        |                      |
+|    Otros   (score=0.00000)           |    Sprite (score=0.00000)       |                      |
+|    Agua Mineral   (score=0.00000)    |    Pepsi (score=0.00000)        |                      |
+|                                      | **Gaseosa Coca Cola**           |                      |
+|                                      | ![No se cargó Gaseosa Coca Cola](https://drive.google.com/uc?export=view&id=1JDK01nj81lSNLaGunkFrZjWsYbeSwyHD "Gaseosa Coca Cola")           |                      |
 ### Resultado Aplicativo - Modelo Básico 🔩
 
 | ![No se cargó Gato](https://drive.google.com/uc?export=view&id=1qy8hF5N_VYKReMLDY_5U2VsOo5Y9Qoi3 "Gato Solución")|![No se cargó Perro](https://drive.google.com/uc?export=view&id=1wn9p4YEfxXCKVdlrxJvdx_20_nGE-I_S "Perro")|![No se cargó Persona](https://drive.google.com/uc?export=view&id=108q6fodNxItlesMBbi8qDZhBu0AnROTX "Persona") |
@@ -290,7 +307,7 @@ Persona (score=0.00624)|Reptil (score=0.01254)|Ave (score=0.06465)
 ## Autores ✒️
 
 
-* **Freddy Dick Salazar Valverde** - *Alumno Tesista* - [villanuevand](https://github.com/villanuevand)
+* **Freddy Dick Salazar Valverde** - *Alumno Tesista* - [salazarvalverdefd](https://github.com/salazarvalverdefd) - [DickSalazar](http://www.ssyspe.org/memberlist.php?mode=viewprofile&u=1747)
 * **Wester Zela Moraya** - *Asesor de Tesis* - [wester.zela](http://www.ssyspe.org/memberlist.php?mode=viewprofile&u=54)
 
 
