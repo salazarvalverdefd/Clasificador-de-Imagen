@@ -198,15 +198,33 @@ Los archivos que se tienen son los siguientes, la mayoría de los scripts fueron
 	* [Optimizar modelo para Inferencia](http://www.dropwizard.io/1.0.2/docs/) - Archivo Jupyter Notebook
 11. **Aplicativo Android**
 	* Se usa una plantilla de Tensorflow para probar el modelo en un teléfono inteligente.
-	* [Aplicativo Android Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Proyecto
-	* [Aplicativo Android Modelo Primer Nivel](http://www.dropwizard.io/1.0.2/docs/) - Proyecto
+	* [Aplicativo Android Modelo Básico](http://www.dropwizard.io/1.0.2/docs/) - Proyecto y APK
+	* [Aplicativo Android Modelo Multicapa - Primer Nivel](http://www.dropwizard.io/1.0.2/docs/) - Proyecto y APK
 	* [Plantilla tensorflow](http://www.dropwizard.io/1.0.2/docs/)
 
 ## Pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
 
 ### Pruebas Unitarias - Modelo Básico 🔩
+
+![No se cargó Ave](https://drive.google.com/uc?export=view&id=1gWeztvnwjmg84mBWyYFt2_mZKgvFNFPi "Ave")|![No se cargó Comida](https://drive.google.com/uc?export=view&id=1bdqy3jcfa8-NT4NAbAxzu_YKzO4Ku4Oe "Comida")|![No se cargó Flor](https://drive.google.com/uc?export=view&id=1DzET_2bvadkqn3a4ZiInp5tXjOgFJyTT "Flor")
+------|------|------
+Ave (score=0.55168)|Comida (score=0.99987)|Flor (score=0.95210)
+Reptil (score=0.39194)|Flor (score=0.00166)|Comida (score=0.11947)
+Utensilio (score=0.10660)|Pez (score=0.00120)|Pez (score=0.01694)
+Pez (score=0.06095)|Gato (score=0.00013)|Persona (score=0.00461)
+Perro (score=0.05183)|Utensilio (score=0.00013)|Gato (score=0.00333)
+
+![No se cargó Gato](https://drive.google.com/uc?export=view&id=1IrWjYp1s96aPuqoLHVCIOYj6DuOBbXro "Gato Solución")|![No se cargó Perro](https://drive.google.com/uc?export=view&id=1JkSwsFnrY1fbhnZiidYmuTvnaBSEpnLV "Perro")|![No se cargó Persona](https://drive.google.com/uc?export=view&id=1glrMN8vxyd8sCMyoVMrTOtfO3r_WeffC "Persona")
+------|------|------
+Gato (score=0.98599)|Perro (score=0.84811)|Persona (score=0.36379)
+Perro (score=0.05299)|Gato (score=0.24164)|Pez (score=0.11069)
+Utensilio (score=0.02251)|Ave (score=0.10057)|Perro (score=0.09442)
+Pez (score=0.01433)|Persona (score=0.05738)|Reptil (score=0.06520)
+Persona (score=0.00624)|Reptil (score=0.01254)|Ave (score=0.06465)
+
+
+### Pruebas Unitarias - Modelo Multicapa 🔩 FALTA
 
 ![No se cargó Ave](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó procesos del Comida](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")|![No se cargó procesos del Flor](https://drive.google.com/uc?export=view&id=1-zxpuenttT6lMkXtCKriVdkxYdW9KkOn "Procesos del Modelo Solución")
 ------|------|------
@@ -224,26 +242,24 @@ Utensilio (score=0.02251)|Ave (score=0.10057)|Perro (score=0.09442)
 Pez (score=0.01433)|Persona (score=0.05738)|Reptil (score=0.06520)
 Persona (score=0.00624)|Reptil (score=0.01254)|Ave (score=0.06465)
 
-
-### Pruebas Unitarias - Modelo Multicapa 🔩
-
-
 ### Resultado Aplicativo - Modelo Básico 🔩
 
+| ![No se cargó Gato](https://drive.google.com/uc?export=view&id=1qy8hF5N_VYKReMLDY_5U2VsOo5Y9Qoi3 "Gato Solución")|![No se cargó Perro](https://drive.google.com/uc?export=view&id=1wn9p4YEfxXCKVdlrxJvdx_20_nGE-I_S "Perro")|![No se cargó Persona](https://drive.google.com/uc?export=view&id=108q6fodNxItlesMBbi8qDZhBu0AnROTX "Persona") |
+|:-:|---|---|
 
 ## Análisis de resultados ⌨️
 
 
 ### Matriz de Confusión Model Básico 🔩
 
-|              |           |     |      |       | Valor predicho |      |        |         |        |       |           |
+|              |           |     |      |       | **Valor predicho** |      |        |         |        |       |           |
 |:------------:|-----------|-----|------|-------|----------------|------|--------|---------|--------|-------|-----------|
 |              |           | Ave | Gato | Perro | Pez            | Flor | Comida | Persona | Reptil | Árbol | Utensilio |
 |              | Ave       | 281 | 4    | 5     | 4              | 4    | 3      | 5       | 7      | 0     | 7         |
 |              | Gato      | 24  | 227  | 7     | 8              | 6    | 9      | 14      | 8      | 0     | 17        |
 |              | Perro     | 28  | 6    | 226   | 8              | 8    | 3      | 14      | 14     | 0     | 13        |
 |              | Pez       | 28  | 2    | 2     | 244            | 3    | 9      | 6       | 9      | 0     | 17        |
-| Valor   Real | Flor      | 6   | 0    | 0     | 0              | 308  | 4      | 0       | 1      | 0     | 1         |
+| **Valor   Real** | Flor      | 6   | 0    | 0     | 0              | 308  | 4      | 0       | 1      | 0     | 1         |
 |              | Comida    | 0   | 0    | 0     | 4              | 7    | 308    | 0       | 0      | 0     | 1         |
 |              | Persona   | 9   | 1    | 3     | 6              | 2    | 4      | 273     | 6      | 1     | 15        |
 |              | Reptil    | 17  | 2    | 5     | 9              | 12   | 7      | 4       | 253    | 0     | 11        |
@@ -252,68 +268,32 @@ Persona (score=0.00624)|Reptil (score=0.01254)|Ave (score=0.06465)
 
 
 
-### Medidas de eficiencia 🔩
+### Medidas de eficiencia Modelo Básico 🔩
 
-### Analice las pruebas end-to-end 🔩
+|                            | **Precision** | **Recall** | **F1 Score** |
+|:--------------------------:|---------------|------------|--------------|
+| **Ave**                    | 0.680387      | 0.878125   | 0.766712     |
+| **Gato**                   | 0.934156      | 0.709375   | 0.806394     |
+| **Perro**                  | 0.896825      | 0.70625    | 0.79021      |
+| **Pez**                    | 0.824324      | 0.7625     | 0.792208     |
+| **Flor**                   | 0.797927      | 0.9625     | 0.872521     |
+| **Comida**                 | 0.839237      | 0.9625     | 0.896652     |
+| **Persona**                | 0.842593      | 0.853125   | 0.847826     |
+| **Reptil**                 | 0.834984      | 0.790625   | 0.812199     |
+| **Árbol**                  | 0.995671      | 0.766667   | 0.86629      |
+| **Utensilio**              | 0.775342      | 0.884375   | 0.826277     |
+| **Average F1 Score**       | -             | -          | **82.7729**  |
+| **Mean Average Precision** | **84.21448**  | -          | -            |
 
-_Explica que verifican estas pruebas y por qué_
 
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
 
 * **Freddy Dick Salazar Valverde** - *Alumno Tesista* - [villanuevand](https://github.com/villanuevand)
-* **Wester Zela Moraya** - *Asesor de Tesis* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* **Wester Zela Moraya** - *Asesor de Tesis* - [wester.zela](http://www.ssyspe.org/memberlist.php?mode=viewprofile&u=54)
 
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+ Por [Freddy Dick Salazar Valverde](https://github.com/salazarvalverdefd) - [DickSalazar](http://www.ssyspe.org/memberlist.php?mode=viewprofile&u=1747)😊
